@@ -48,7 +48,6 @@ INSTALLED_APPS = [
     'backend.accounts.apps.AccountsConfig',
     'backend.core.apps.CoreConfig',
     'backend.crm.apps.CrmConfig',
-    'backend.expense.apps.ExpenseConfig',
 ]
 
 MIDDLEWARE = [

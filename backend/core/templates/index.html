@@ -2,5 +2,8 @@
 {% extends "base.html" %}
 
 {% block content %}
-
+  <h1>Try django-weasyprint</h1>
+  View on <a href="https://github.com/rg3915/try-django-weasyprint">Github</a>
+  <p class="text-danger">First, create data in CRM.</p>
+  <a class="btn btn-success" href="{% url 'crm:person_report' %}">Print</a>
 {% endblock content %}
