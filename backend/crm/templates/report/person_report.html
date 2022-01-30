@@ -30,13 +30,15 @@
     <table class="table table-bordered">
       <thead>
         <tr>
-          <th>Itens</th>
+          <th>Name</th>
+          <th>Email</th>
         </tr>
       </thead>
       <tbody>
         {% for object in object_list %}
           <tr>
             <td>{{ object }}</td>
+            <td>{{ object.email }}</td>
           </tr>
         {% endfor %}
       </tbody>
