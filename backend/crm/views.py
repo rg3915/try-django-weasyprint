@@ -1,5 +1,6 @@
-from django.urls import reverse_lazy
 from datetime import datetime
+
+from django.urls import reverse_lazy
 from django.views.generic import (
     CreateView,
     DeleteView,
