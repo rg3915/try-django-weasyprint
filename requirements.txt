@@ -1,0 +1,11 @@
+dj-database-url==0.5.0
+django-extensions==3.1.5
+django-localflavor==3.1
+django-seed==0.3.1
+django-weasyprint==2.1.0
+django-widget-tweaks==1.4.12
+Django==4.0.1
+Faker==11.3.0
+isort==5.10.1
+psycopg2-binary==2.9.3
+python-decouple==3.5
